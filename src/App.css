@@ -1,38 +1,96 @@
-.App {
+.Container {
   text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url('./image/theme.jpg');
+  background-size: 130%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.link {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+span {
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  text-align: center;
+  color: black;
+}
+
+.addform {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: top;
+}
+
+.editform {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: top;
+}
+
+.userform {
+  padding: 20px;
+  height: 70vh;
+  width: 50%;
+  border: 1px solid green;
+  box-shadow: 5px 10px 5px green;
+}
+
+h3 {
+  margin: 18px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.heading2 {
+  margin: 28px;
+  text-align: left;
+}
+
+.contactform {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  margin: 50px;
+}
+
+.contactform1 {
+  padding: 20px;
+  height: 60vh;
+  width: 50%;
+  border: 1px solid green;
+  box-shadow: 5px 10px 5px green;
+}
+
+.homeform {
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  margin: 30px;
+}
+
+.homeform1 {
+  display: flex;
+  width: 50%;
+  text-align: left;
+}
+
+.curd {
+  display: flex;
+  padding: 20px;
+}
+
+.span1 {
+  padding: 10px;
+}
+.message{
+  margin: 100px;
 }
